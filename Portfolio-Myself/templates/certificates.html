@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificates</title>
+<link rel="icon" type="image/png" style="border-radius: 50%;" href="/Images/Diamond.jpg">
+<meta name="description" content="Certificates and credentials of Siddhesh Dattatray Patil">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700,500&display=swap">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="nav-logo" href="/templates/index.html">Siddhesh<span>.dev</span></a>
+  <ul class="nav-links">
+    <li><a href="/templates/index.html">Home</a></li>
+    <li><a href="/templates/index.html#skills">Skills</a></li>
+    <li><a href="/templates/index.html#experience">Experience</a></li>
+    <li><a href="/templates/index.html#projects">Projects</a></li>
+    <li><a href="/templates/certificates.html" class="active">Certificates</a></li>
+    <li><a href="/templates/contact.html">Contact</a></li>
+  </ul>
+  <a href="/templates/contact.html" class="nav-cta">Hire Me →</a>
+  <button class="nav-burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-mobile">
+  <a href="/templates/index.html">Home</a>
+  <a href="/templates/index.html#skills">Skills</a>
+  <a href="/templates/index.html#experience">Experience</a>
+  <a href="/templates/index.html#projects">Projects</a>
+  <a href="/templates/certificates.html">Certificates</a>
+  <a href="/templates/contact.html">Contact</a>
+</div>
+
+<div class="page">
+
+  <!-- PAGE INTRO -->
+  <div class="cert-intro">
+    <div class="cert-intro-inner">
+      <div class="section-eyebrow" data-reveal>Credentials</div>
+      <h1 class="section-title" data-reveal="delay-1">Certificates <em>&amp; Awards</em></h1>
+      <p class="section-body" data-reveal="delay-2">
+        A curated collection of earned certifications across web development, Java, React, and Generative AI —
+        each one representing real skill-building and commitment to growth.
+      </p>
+
+      </div>
+  </div>
+
+  <!-- CERTS CONTENT -->
+  <div class="certs-wrapper">
+
+    <!-- ── PROGRAMMING / BACKEND ── -->
+    <div class="cert-category">
+      <div class="cert-category-label">Programming &amp; Backend</div>
+      <div class="cert-grid">
+
+        <!-- Java -->
+        <div class="cert-card" data-reveal
+          onclick="openLightbox('/certificates/java.jpg','Java & Spring Boot','Backend Programming Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/java.jpg" alt="Java Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">☕</span>
+              <span class="label">Add: certificates/j</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">Java · Backend</div>
+            <div class="cert-name">Java & Spring Boot</div>
+            <div class="cert-date">Enterprise Backend Development</div>
+          </div>
+          <span class="cert-badge">Backend</span>
+        </div>
+
+        <!-- Python -->
+        <!-- <div class="cert-card" data-reveal="delay-1"
+          onclick="openLightbox('certificates/python.jpg','Python Programming','Python Certificate')">
+          <div class="cert-thumb">
+            <img src="certificates/python.jpg" alt="Python Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🐍</span>
+              <span class="label">Add: certificates/python.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">Python</div>
+            <div class="cert-name">Python Programming</div>
+            <div class="cert-date">Core Python & Data Structures</div>
+          </div>
+          <span class="cert-badge">Language</span>
+        </div> -->
+
+      </div>
+    </div>
+
+    <!-- ── FRONTEND ── -->
+    <div class="cert-category">
+      <div class="cert-category-label">Frontend Development</div>
+      <div class="cert-grid">
+
+        <!-- HTML -->
+        <div class="cert-card" data-reveal
+          onclick="openLightbox('/certificates/html.jpg','HTML5 Web Development','Frontend Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates//html.jpg" alt="HTML Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🌐</span>
+              <span class="label">Add: certificates/html.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">HTML5</div>
+            <div class="cert-name">HTML & Web Development</div>
+            <div class="cert-date">Semantic Markup & Structure</div>
+          </div>
+          <span class="cert-badge">Frontend</span>
+        </div>
+
+        <!-- CSS -->
+        <div class="cert-card" data-reveal="delay-1"
+          onclick="openLightbox('/certificates/css.jpg','CSS3 & Responsive Design','Frontend Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/css.jpg" alt="CSS Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🎨</span>
+              <span class="label">Add: certificates/css.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">CSS3</div>
+            <div class="cert-name">CSS & Responsive Design</div>
+            <div class="cert-date">Layouts, Animations & Styling</div>
+          </div>
+          <span class="cert-badge">Frontend</span>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="cert-card" data-reveal="delay-2"
+          onclick="openLightbox('/certificates/javascript.jpg','JavaScript ES6+','Frontend Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/javascript.jpg" alt="JavaScript Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">⚡</span>
+              <span class="label">Add: certificates/javascript.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">JavaScript</div>
+            <div class="cert-name">JavaScript ES6+</div>
+            <div class="cert-date">Dynamic Web Programming</div>
+          </div>
+          <span class="cert-badge">Frontend</span>
+        </div>
+
+        <!-- React -->
+        <div class="cert-card" data-reveal="delay-3"
+          onclick="openLightbox('/certificates/React.jpg','React Development','Frontend Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/React.jpg" alt="React Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">⚛️</span>
+              <span class="label">Add: certificates/React.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">React</div>
+            <div class="cert-name">React Development</div>
+            <div class="cert-date">Component Architecture & Hooks</div>
+          </div>
+          <span class="cert-badge">Frontend</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── AI / ML ── -->
+    <div class="cert-category">
+      <div class="cert-category-label">Artificial Intelligence &amp; Machine Learning</div>
+      <div class="cert-grid">
+
+        <!-- Gen AI -->
+        <div class="cert-card" data-reveal
+          onclick="openLightbox('/certificates/genai.jpg','Generative AI','AI/ML Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/aiml.jpg" alt="Generative AI Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🤖</span>
+              <span class="label">Add: certificates/aiml.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">Generative AI</div>
+            <div class="cert-name">AI & ML for Engineers</div>
+            <div class="cert-date">3-Day Workshop · RIT College, Islampur</div>
+          </div>
+          <span class="cert-badge">AI/ML</span>
+        </div>
+
+        <!-- ML Extra -->
+        <div class="cert-card" data-reveal="delay-1"
+          onclick="openLightbox('/certificates/ml.jpg','Machine Learning','AI/ML Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/ml.jpg" alt="ML Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">📊</span>
+              <span class="label">Add: certificates/ml.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">Machine Learning</div>
+            <div class="cert-name">Machine Learning Fundamentals</div>
+            <div class="cert-date">Supervised & Unsupervised Learning</div>
+          </div>
+          <span class="cert-badge">AI/ML</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── HACKATHONS ── -->
+    <div class="cert-category">
+      <div class="cert-category-label">Competitions &amp; Events</div>
+      <div class="cert-grid">
+
+        <div class="cert-card" data-reveal
+          onclick="openLightbox('/certificates/logo-design.jpg','Logo Design & Web Design','Competition Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/logo-design.jpg" alt="Logo & Web Design Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🏆</span>
+              <span class="label">Add: certificates/logo-design.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">National Level Tech Event</div>
+            <div class="cert-name">Logo Design & Web Development</div>
+            <div class="cert-date">Coding Challenge</div>
+          </div>
+          <span class="cert-badge">Award</span>
+        </div>
+
+        <div class="cert-card" data-reveal
+          onclick="openLightbox('/certificates/web.jpg','National Web Development','Competition Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/web.jpg" alt="Web Development Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">🏆</span>
+              <span class="label">Add: certificates/web.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">National Level Tech Event</div>
+            <div class="cert-name">Web Development</div>
+            <div class="cert-date">Coding Challenge</div>
+          </div>
+          <span class="cert-badge">Award</span>
+        </div>
+
+        <div class="cert-card" data-reveal="delay-1"
+          onclick="openLightbox('/certificates/techno.jpg','Ideathon','Event Certificate')">
+          <div class="cert-thumb">
+            <img src="/certificates/techno.jpg" alt="Techno-Event Certificate"
+              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+            <div class="cert-thumb-placeholder" style="display:none">
+              <span class="icon">💡</span>
+              <span class="label">Add: certificates/techno.jpg</span>
+            </div>
+            <div class="cert-thumb-overlay">
+              <button class="cert-view-btn">View Full ↗</button>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div class="cert-issuer">National Level</div>
+            <div class="cert-name">Ideathon</div>
+            <div class="cert-date">Industrial Ideathon Competition</div>
+          </div>
+          <span class="cert-badge">Event</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!-- /certs-wrapper -->
+
+</div><!-- /page -->
+
+<!-- ── LIGHTBOX ── -->
+<div class="lightbox-overlay" id="lightbox">
+  <div class="lightbox-img-wrap">
+    <img id="lightbox-img" src="" alt="Certificate">
+    <div class="lightbox-caption">
+      <div>
+        <div class="lightbox-caption-text" id="lightbox-title"></div>
+        <div class="lightbox-caption-sub" id="lightbox-sub"></div>
+      </div>
+      <button class="lightbox-close" id="lightbox-close">✕</button>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-logo">SP<span style="color:var(--txt-dim)">.dev</span></div>
+  <div style="font-size:0.72rem;color:var(--txt-dim)">© 2025 Siddhesh Dattatray Patil</div>
+  <div class="footer-links">
+    <a href="https://github.com/Siddhesh0389" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/siddhesh-patil-831010261" target="_blank">LinkedIn</a>
+    <a href="/templates/contact.html">Contact</a>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
